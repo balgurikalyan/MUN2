@@ -407,17 +407,23 @@ p span{
 /* Header Area */
 
 .header-area{
-	background: url(../images/bg/header-1.jpg);
-	background-size:cover;
+	background: url(../images/bgimages/frederic-koberl-x_0hW-KaCgI-unsplash.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
 	color:#fff;
 }
 .header-slide-1{
-	background: url(../images/bg/header-1.jpg);
+	background: url(../images/bgimages/wp3765766-united-nations-wallpapers.jpg);
 	background-size:cover;
+	background-repeat: no-repeat;
+
 }
 .header-slide-2{
-	background: url(../images/bg/header-2.jpg);
-	background-size:cover;
+	background: url(../images/bgimages/frederic-koberl-x_0hW-KaCgI-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
 }
 .header-area .overlay{
 	padding:200px 0;
