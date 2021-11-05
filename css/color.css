@@ -143,9 +143,17 @@ p span{
 	background:#7c4dff;
 }
 .sb-over{
-	background:#7c4dff;
+	background:red;
 }
-
+#aippm1{
+	background-color: #B9A33D;
+}
+#al1{
+	background-color: #24AC30;
+}
+#ip1{
+	background-color: #561095;
+}
 .sb-over-innr a{
 	color:#7c4dff;
 }
@@ -153,7 +161,16 @@ p span{
 	background:#7c4dff;
 }
 .sb-social-share{
-	background:#7c4dff;
+	background:#AD310E;
+}
+#aippm2{
+	background-color: #B9A33D;
+}
+#al2{
+	background-color: #24AC30;
+}
+#ip2{
+	background-color: #561095;
 }
 .social-trigger{
 	border-bottom:1px solid #663cdc;
