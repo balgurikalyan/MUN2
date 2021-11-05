@@ -325,6 +325,7 @@ p span{
 .navbar {
 	border: 0;
 	margin-bottom: 0;
+	
 }
 .navbar-toggle {
 	border-radius: 0;
@@ -493,6 +494,12 @@ p span{
 
 /* About Area */
 
+#aboutpage {
+
+		background: url(../images/bgimages/frederic-koberl-x_0hW-KaCgI-unsplash.jpg);
+		background-size:cover;
+
+}
 .about-area{
 	padding:100px 0 70px;
 }
@@ -614,7 +621,8 @@ p span{
 	padding-bottom:70px;
 }
 .single-speaker img{
-	width:100%;
+	width:150%;
+	height: 300px;
 }
 .speaker-cover{
 	position:relative;
@@ -1205,7 +1213,7 @@ p span{
 	padding-bottom:70px;
 }
 .single-blog img{
-	width:100%;
+	width:90%;
 }
 .single-blog{
 	overflow:hidden;
@@ -1220,9 +1228,9 @@ p span{
 	height:100%;
 	width:100%;
 	background:#7c4dff;
-	-webkit-transition:all .5s ease;
-	-moz-transition:all .5s ease;
-	transition:all .5s ease;
+	-webkit-transition:all 3s ease;
+	-moz-transition:all 3s ease;
+	transition:all 3s ease;
 }
 .single-blog:hover .sb-over{
 	left:0;
@@ -1261,6 +1269,7 @@ p span{
 	content:"";
 }
 .sb-meta{
+	display: none;
 	position:absolute;
 	left:20px;
 	bottom:20px;
@@ -1311,6 +1320,7 @@ p span{
 }
 
 .sb-bottom{
+	display: none;
 	position:relative;
 	padding:22px 30px;
 }
@@ -1323,8 +1333,21 @@ p span{
 	color:#777;
 	padding-bottom:4px;
 }
-.sb-heading{
-	background: url(../images/blog/single/f-image.jpg);
+
+#disec{
+	background: url(../images/committees/disec5.jpg);
+	background-size:cover;
+}
+#arab_league{
+	background: url(../images/committees/al5.jpg);
+	background-size:cover;
+}
+#aippm{
+	background: url(../images/committees/ls1.jpg);
+	background-size:cover;
+}
+#ip{
+	background: url(../images/committees/committeebgs/IP4.jpg);
 	background-size:cover;
 }
 .sb-heading .overlay-half{
