@@ -43,6 +43,43 @@
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
 		
+  <style>
+ 
+     .wrapper {
+
+       display: grid;
+	   font-size: 100px;
+	   grid-template-columns: 1fr 1fr;
+	   grid-auto-rows: minmax(100px, auto);
+	   align-items: center;
+	
+	   grid-gap: 1em;
+
+	 }
+
+
+	  .wrapper > div {
+        background: #eee;
+		padding: 1em;
+
+	  }
+
+	  .wrapper > div:nth-child(odd) {
+		  background: #ddd;
+		  padding: 1em;
+
+	  }
+	  @media only screen and (max-width:600px) {
+		  .wrapper{
+			  grid-template-columns: 1fr;
+		  }
+		  
+	  }
+  </style>
+
+
+
+
 	</head>
 	<body>
 		
@@ -99,7 +136,7 @@
 			</nav>
 		</div><!-- /.navigation-area -->
 		
-		<div class="page-heading">
+		<div class="page-heading" id="aboutpage" style="height: 700px">
 			<div class="overlay">
 				<div class="container">
 					<div class="row">
@@ -108,7 +145,7 @@
 								<li><a href="index.html">Home</a></li>
 								<li class="active">About</li>
 							</ul>
-							<h2>About Us</h2>
+						<span><h2>About VBITMUN</h2></span>	
 						</div>
 					</div>
 				</div>
@@ -151,7 +188,30 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</div><!-- /.about-area -->
-		
+		<!--grids-->
+		<div class= "post-content primary-shadow mb30">
+			<h2 style="text-align: center;">Ideals We Stand for</h2>
+            <div class=wrapper>
+             <div>
+				<p>VBIT MUN Society has been established with an aim to encourage youth to develop accountability and incite the thought of ethical capitalism, sustainable development, alongside diplomacy, peace and tolerance in them. It aspires for the contribution of youth in the decision making process at all levels(local, national, global) of decision making</p>
+			 </div>
+			 <div>
+				 <p>We wish to encourage the youth to discuss and participate in a healthy debate, questioning their ideologies and beliefs whilst also familiarizing them with the importance of diplomatic relationships, etiquette and presiding policies of various countries.
+				 Our mission is to promote ‘learning by doing’. We strive to provide a platform to enhance ethical thought, train and develop an individual to reach their true calibre.</p>
+			 </div>
+
+
+
+			</div>
+
+
+
+
+
+
+
+
+
 		<div class="post-content primary-shadow mb30">
 			<h2 style="text-align: center;">Ideals We Stand for</h2>
 			<div class="row">
