@@ -287,9 +287,11 @@ p span{
 .navbar-nav > li > a {
 	line-height: 40px;
 	padding:0 15px;
+	
 	/* text-transform:uppercase; */
 	position:relative;
 }
+
 .navbar-default .navbar-nav > li > a:after{
 	position:absolute;
 	left:0;
@@ -375,7 +377,7 @@ p span{
 /* Page Heading Area */
 
 .page-heading{
-	background: url(../images/bg/header-1.jpg);
+	background: url(../images/bgimages/wp3765766-united-nations-wallpapers.jpg);
 	background-size:cover;
 }
 .page-heading .overlay{
