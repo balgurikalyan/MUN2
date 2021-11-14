@@ -266,7 +266,11 @@ p span{
 	background:#7c4dff;
 	color:#fff;
 }
-.contact-info-bar{}
+#themes{
+	background:#ffffff;
+	color:#000000;
+	font-size: large;
+}
 .contact-info-bar ul{
 	padding:13px 0;
 }
