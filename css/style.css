@@ -1352,6 +1352,10 @@ p span{
 	background: url(../images/committees/IP2.jpg);
 	background-size:cover;
 }
+#venuepage{
+	background: url(../images/venue/venue1.webp);
+	background-size:cover;
+}
 .sb-heading .overlay-half{
 	padding:420px 0 90px;
 }
