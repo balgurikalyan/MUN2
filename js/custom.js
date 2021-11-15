@@ -1,9 +1,3 @@
-/*
-	Author: BestPixels
-	Template: EveMat | Responsive HTML Event Template
-	Version: 1.0
-*/
-	
 "use strict";
 
 /*global jQuery, $*/
@@ -77,7 +71,7 @@ function init() {
 		zoom: 11,
 
 		// The latitude and longitude to center the map (always required)
-		center: new google.maps.LatLng(17.4363,  78.4537), // New York
+		center: new google.maps.LatLng(17.4363,  78.4537), // Begumpet
 
 		// How you would like to style the map. 
 		// This is where you would paste any style found on Snazzy Maps.
@@ -95,6 +89,6 @@ function init() {
 	var marker = new google.maps.Marker({
 		position: new google.maps.LatLng(17.4363,  78.4537),
 		map: map,
-		title: 'EveMat!'
+		title: 'VBITMUN'
 	});
 }
